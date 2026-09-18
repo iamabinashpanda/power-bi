@@ -1,0 +1,58 @@
+{
+    "name": "Order Dashboard Theme",
+    "dataColors": [
+        "#003366",
+        "#0F4C81",
+        "#2E7D32",
+        "#ED6C02",
+        "#D32F2F",
+        "#757575",
+        "#E0E0E0",
+        "#212121"
+    ],
+    "background": "#FFFFFF",
+    "foreground": "#212121",
+    "tableAccent": "#003366",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#E0E0E0"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#F4F5F7"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ]
+            }
+        }
+    }
+}

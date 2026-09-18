@@ -1,0 +1,89 @@
+{
+    "name": "Enhanced Slate & Sapphire",
+    "dataColors": [
+        "#1B365D",
+        "#4A90E2",
+        "#00C6FF",
+        "#6772E5",
+        "#8F9CAE",
+        "#D1D8E0",
+        "#2C3E50",
+        "#E2E8F0"
+    ],
+    "background": "#F8FAFC",
+    "foreground": "#0F172A",
+    "tableAccent": "#4A90E2",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#FFFFFF" } },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#E2E8F0" } },
+                        "radius": 8
+                    }
+                ],
+                "dropShadow": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#000000" } },
+                        "transparency": 95,
+                        "preset": "Custom",
+                        "position": "Outer",
+                        "direction": "BottomRight",
+                        "blur": 4,
+                        "distance": 2
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "fontColor": { "solid": { "color": "#0F172A" } },
+                        "fontSize": 12,
+                        "fontFamily": "Segoe UI Semibold"
+                    }
+                ]
+            }
+        },
+        "actionButton": {
+            "*": {
+                "fill": [
+                    {
+                        "show": true,
+                        "state": "Normal",
+                        "color": { "solid": { "color": "#FFFFFF" } }
+                    },
+                    {
+                        "show": true,
+                        "state": "Hover",
+                        "color": { "solid": { "color": "#F1F5F9" } }
+                    }
+                ]
+            }
+        },
+        "slicer": {
+            "*": {
+                "items": [
+                    {
+                        "fontColor": { "solid": { "color": "#334155" } },
+                        "background": { "solid": { "color": "#FFFFFF" } },
+                        "padding": 4
+                    }
+                ],
+                "slicerHeader": [
+                    {
+                        "fontColor": { "solid": { "color": "#0F172A" } },
+                        "fontSize": 11
+                    }
+                ]
+            }
+        }
+    }
+}
