@@ -1,0 +1,86 @@
+{
+  "name": "Corporate Clean Tech",
+  "dataColors": [
+    "#1E3A8A",
+    "#0EA5E9",
+    "#475569",
+    "#F1F5F9",
+    "#059669",
+    "#DC2626",
+    "#D97706",
+    "#2563EB"
+  ],
+  "good": "#059669",
+  "neutral": "#D97706",
+  "bad": "#DC2626",
+  "maximum": "#1E3A8A",
+  "center": "#0EA5E9",
+  "minimum": "#F1F5F9",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "*": [
+          {
+            "fontFamily": "Segoe UI"
+          }
+        ],
+        "general": [
+          {
+            "responsive": true
+          }
+        ],
+        "padding": [
+          {
+            "top": 12,
+            "bottom": 12,
+            "left": 16,
+            "right": 16
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 14,
+            "fontColor": { "solid": { "color": "#1E3A8A" } },
+            "alignment": "Left"
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 28,
+            "color": { "solid": { "color": "#1E3A8A" } }
+          }
+        ],
+        "categoryLabels": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "color": { "solid": { "color": "#475569" } }
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#F1F5F9" } },
+            "radius": 4
+          }
+        ]
+      }
+    }
+  }
+}
